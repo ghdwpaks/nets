@@ -1,0 +1,10 @@
+■ 지도(network주소) : show ip route
+Protocol = 프로그램
+
+- Static Routing : ip route [목적지 네트워크주소] [목적지 서브넷 마스크]  [이웃 IP주소]
+- Dynamic Routing : 
+<1> IGP
+. Distance Vector : RIPv1-> RIPv2, IGRP -> EIGRP
+. Link State : OSPF, (IS-IS)
+
+<2> EGP : Path-Vector  <예> BGP
